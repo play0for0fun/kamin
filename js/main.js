@@ -26,6 +26,7 @@ $(document).ready(function(){
     $(this).parent().parent().fadeOut();
     $('.kalk-steps[data-step="'+next_step+'"]').fadeIn();
     $(this).parent().parent().parent().attr('data-step',next_step);
+    $('input[name="'+$(this).data('inp-name')+'"]').val(($(this).find('h3').text()+$(this).find('h4').text()).toLowerCase());
   });
 
   $('.back').click(function(){    
@@ -38,8 +39,26 @@ $(document).ready(function(){
     }
   });
 
-  
-  
+  $('.stone-item')
+        .mousemove(function(e){
+            $($(this).data('tooltip')).css({
+                top: e.pageY + -65 + 'px',
+                left: e.pageX + 35 + 'px'
+            });
+        })
+        .hover(function(){
+            $($(this).data('tooltip')).fadeIn(200);
+        }, function(){
+            $($(this).data('tooltip')).fadeOut(200);
+        });
+
+  $('.stone-pager').click(function() {
+    $('.stone-pager').removeClass('active');
+    $(this).addClass('active');
+    $('.stone-wrap').fadeOut();
+    $('.stone-wrap[data-page="'+$(this).data('page')+'"]').fadeIn();
+  });
+
 });
 
 $(window).load(function(){
@@ -47,6 +66,29 @@ $(window).load(function(){
 		$('body').addClass('loaded');
 		initfullpage();
 	};
+
+slider1 = $('.first-slider').bxSlider({pager:false,controls:false, auto:false, speed: 400,
+    onSlideNext:function($slideElement, oldIndex, newIndex){
+          $('.first-slider-slide').addClass('fadeouted');
+          $('.first-slider-slide').removeClass('active');
+          $('.first-slider-slide[data-sld="'+newIndex+'"]').removeClass('fadeouted');
+          $('.first-slider-slide[data-sld="'+newIndex+'"]').addClass('active');
+      },
+      onSlidePrev:function($slideElement, oldIndex, newIndex){
+          $('.first-slider-slide').addClass('fadeouted');
+          $('.first-slider-slide').removeClass('active');
+          $('.first-slider-slide[data-sld="'+newIndex+'"]').removeClass('fadeouted');
+          $('.first-slider-slide[data-sld="'+newIndex+'"]').addClass('active');
+      },
+      onSliderLoad:function(){
+        $('.first-slider-slide.active.bx-clone').removeClass('active');
+        $('.first-slider-slide').addClass('fadeouted');
+        $('.first-slider-slide.active').removeClass('fadeouted');
+      }});
+    slider1.goToSlide(0);
+
+  $('.arr-l-abs').click(function(e){e.preventDefault();slider1.goToPrevSlide();});
+  $('.arr-r-abs').click(function(e){e.preventDefault();slider1.goToNextSlide();});
 });
 
 
