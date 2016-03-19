@@ -409,7 +409,9 @@ border: 3px solid #ebd1bb;
     left: 50%;
     margin-left: -280px;
 }
-
+.block-cont[data-step="2"] .nav .cursor{width:50%}
+.block-cont[data-step="3"] .nav .cursor{width:75%}
+.block-cont[data-step="4"] .nav .cursor{width:100%}
 .nav .cursor {
     width: 25%;
     height: 3px;

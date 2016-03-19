@@ -20,6 +20,26 @@ $(document).ready(function(){
   	$('#pop-zz').arcticmodal();
   });
 
+  $('.sec2 .item').click(function(){
+    var cur_step = parseInt($(this).parent().parent().data('step'));
+    var next_step = cur_step+1;
+    $(this).parent().parent().fadeOut();
+    $('.kalk-steps[data-step="'+next_step+'"]').fadeIn();
+    $(this).parent().parent().parent().attr('data-step',next_step);
+  });
+
+  $('.back').click(function(){    
+    var cur_step = parseInt($('.block-cont').attr('data-step'));
+    if (cur_step>1) {
+      var prev_step = cur_step-1;
+      $('.kalk-steps[data-step="'+cur_step+'"]').fadeOut();
+      $('.kalk-steps[data-step="'+prev_step+'"]').fadeIn();
+      $('.block-cont').attr('data-step',prev_step);
+    }
+  });
+
+  
+  
 });
 
 $(window).load(function(){
