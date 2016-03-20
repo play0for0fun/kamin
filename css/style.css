@@ -144,18 +144,21 @@ span:before {
     margin: -4px 0 0 -4px;
     background: #b88b67;
     transition: all 0.25s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .clear {
     clear: both;
 }
 .animation,.animation2,.animation3{
     animation-delay: 0.5s;
+    opacity: 0;
 }
 section {
     width: 100%;
     min-width: 1260px;
     overflow: hidden;
     z-index: 2;
+    position: relative;
     background-size: cover!important;
     /* height: 100vh!important; */
 }
@@ -746,7 +749,10 @@ ul.list .list-li {
     font-size: 18px;
     color: #999;
 }
-
+.error-input{
+    background: #FFBEBE;
+    border: 1px solid #D71525;
+}
 form input,
 form button,
 form textarea {
@@ -758,6 +764,7 @@ form textarea {
     border: none;
     color: black;
     transition: all 0.25s;
+    border: 1px solid transparent;
     outline: none;
 }
 
@@ -1233,7 +1240,9 @@ background: url(../img/label1.png) no-repeat left top;
     padding-top: 12px;
     padding-bottom: 12px;
 }
-
+.sec10 .full-block.hover{
+    border-color: white;
+}
 .sec10 .full-block {
     width: 870px;
     height: 241px;
@@ -1241,8 +1250,13 @@ background: url(../img/label1.png) no-repeat left top;
     border: 2px dashed#e3c5b1;
     border-radius: 15px;
     margin: 0 auto 30px;
+    padding-top: 90px;
+    transition: all 0.25s;
 }
-
+.sec10 .full-block span{
+    font-size: 24px;
+    line-height: 34px;
+}
 .sec10 .full-block p{margin-top: 99px;}
 .full-block p {
     /* margin-top: 99px; */
@@ -1250,15 +1264,18 @@ background: url(../img/label1.png) no-repeat left top;
     line-height: 34px;
 }
 
-.full-block a {
+.full-block label {
     padding: 13px 18px 8px;
     background-color: #a47c64;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    transition: all 0.25s;
+    display:inline-block;
+    width: 210px;
 }
-
-.full-block a:hover {
+#file-input{display:none}
+.full-block label:hover {
     background-color: #744e37;
 }
 
@@ -1335,6 +1352,23 @@ background: url(../img/label1.png) no-repeat left top;
     width: 620px;
     float: left;
     height: 600px;
+    position: relative;
+}
+.arrows-second{
+    float: right;
+    margin-top: 530px;
+    position: relative;
+    z-index: 5;
+    animation-delay: 0.9s;
+}
+.second-slider-slide.active{
+    opacity: 1;
+}
+.second-slider-slide.fadeouted{
+    opacity: 0; 
+}
+.second-slider-slide{
+    transition: all 0.4s;
 }
 .s12-line{
     background: url(../img/s12_line.png) no-repeat center;
@@ -1344,6 +1378,7 @@ background: url(../img/label1.png) no-repeat left top;
     left: 258px;
     top: 610px;
     animation-delay: 1.2s;
+    /* opacity: 0.6; */
 }
 .s12-slide{
     background: url(../img/sec12_img.jpg) no-repeat center;
@@ -1374,24 +1409,39 @@ background: url(../img/label1.png) no-repeat left top;
     text-align: right;
     margin-left: 6px;
     cursor: pointer;
-    -webkit-box-shadow: -2px 4px 30px 0px rgba(73, 73, 75, 0.54);
-    -moz-box-shadow:    -2px 4px 30px 0px rgba(73, 73, 75, 0.54);
-    box-shadow:         -2px 4px 30px 0px rgba(73, 73, 75, 0.54);
+    -webkit-box-shadow: -2px 4px 20px 0px rgba(73, 73, 75, 0.94);
+    -moz-box-shadow: -2px 4px 20px 0px rgba(73, 73, 75, 0.94);
+    box-shadow: -2px 4px 20px 0px rgba(73, 73, 75, 0.94);
 }
 
 .sec12 .arrow-left {
     float: right;
-    margin-top: 530px;
+    /* margin-top: 530px; */
     background: url(../img/left.png) no-repeat center;
     animation-delay: 0.9s;
+    position: relative;
+    z-index: 5;
+    opacity: 0.6;
+    transition: all 0.25s;
 }
 
+.sec12 .arrow-left:hover{
+    opacity: 1;
+}
+.sec12 .arrow-right:hover{
+    opacity: 1;
+}
 .sec12 .arrow-right {
     float: right;
-    margin-top: 530px;
+    /* margin-top: 530px; */
     margin-left: 57px;
     background: url(../img/right.png) no-repeat center;
     animation-delay: 0.9s;
+    position: relative;
+    z-index: 5;
+    transition: all 0.25s;
+    opacity: 0.5;
+    /* animation-delay: 1.2s; */
 }
 
 .sec13 {
@@ -1399,7 +1449,13 @@ background: url(../img/label1.png) no-repeat left top;
     /* background: url(../img/mapa.jpg) no-repeat center top; */
     height: 858px;
 }
-
+#map{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 108px;
+}
 .window {
     position: absolute;
     top: 275px;
@@ -1442,7 +1498,7 @@ background: url(../img/label1.png) no-repeat left top;
     height: 585px;
     background-color: #4b3f3f;
     left: 50%;
-    margin-left: 130px;
+    margin-left: 110px;
     z-index: 3;
 }
 
@@ -1524,6 +1580,13 @@ footer .logo {
     height: 430px;
     background-color: #4b3f3f;
 }
+#okgo{
+    height: initial;
+}
+#okgo h2{
+    padding: 20px;
+    font-size: 24px;
+}
 .pop form{margin: 0 auto;
     width: 286px;}
 .pop h2{
@@ -1540,3 +1603,4 @@ footer .logo {
     width: 100%;
     text-align: center;
     margin-bottom: 25px;
+}
