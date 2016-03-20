@@ -59,6 +59,99 @@ $(document).ready(function(){
     $('.stone-wrap[data-page="'+$(this).data('page')+'"]').fadeIn();
   });
 
+  var dropZone = $('#dropZone');
+
+  dropZone[0].ondragover = function() {
+    dropZone.addClass('hover');
+    return false;
+  };
+    
+  dropZone[0].ondragleave = function() {
+    dropZone.removeClass('hover');
+    return false;
+  };
+
+  dropZone[0].ondrop = function(event) {
+    event.preventDefault();
+    dropZone.removeClass('hover');
+
+  var file = event.dataTransfer.files[0];
+  xhr = new XMLHttpRequest();
+  xhr.upload.addEventListener('progress', uploadProgress, false);
+  xhr.onreadystatechange = stateChange;
+  xhr.open('POST', 'ajax/upload.php', true);
+  xhr.setRequestHeader('X-FILE-NAME', file.name);
+  var fd = new FormData
+  fd.append("file", file)
+  xhr.send(fd)
+  };
+
+  $('#dropZone input').change(function(){
+  var file = this.files[0];
+  xhr = new XMLHttpRequest();
+  xhr.upload.addEventListener('progress', uploadProgress, false);
+  xhr.onreadystatechange = stateChange;
+  xhr.open('POST', 'ajax/upload.php', true);
+  xhr.setRequestHeader('X-FILE-NAME', file.name);
+  var fd = new FormData
+  fd.append("file", file)
+  xhr.send(fd);
+ 
+});
+
+  function uploadProgress(event) {
+    var percent = parseInt(event.loaded / event.total * 100);
+    dropZone.find('.btn-fu').text('Загрузка: ' + percent + '%');
+  }
+
+  function stateChange(event) {
+    if (event.target.readyState == 4) {
+        if (event.target.status == 200) {
+          //var fileResponse.responseText
+            dropZone.find('.btn-fu').text(xhr.responseText);
+            $('#filename').val(xhr.responseText);
+        } else {
+            dropZone.find('.btn-fu').text('Произошла ошибка!');
+        }
+    }
+  }
+
+  function getURLParameter(name) {return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;} 
+    function run_geo(geo_url){
+        $.ajax({type: 'GET',url: geo_url,dataType: 'xml',
+            success: function(xml) {$(xml).find('ip').each(function(){
+            var city = $(this).find('city').text();
+            var region = $(this).find('region').text();
+            if(city!=region){var ipg = city+', '+region;}else{var ipg = city;}
+            $('<input type="hidden" />').attr({name: 'location', class: 'location', value:ipg}).appendTo("form");
+        });}});
+    }
+    $.get("http://ipinfo.io", function(response) {geo_url='http://ipgeobase.ru:7020/geo?ip='+response.ip; run_geo(geo_url);}, "jsonp");
+    utm=[];$.each(["utm_source","utm_medium","utm_campaign","utm_term",'source_type','source','position_type','position','added','creative','matchtype'],function(i,v){utm[v]=getURLParameter(v) || $('<input type="hidden" />').attr({name: v, class: v, value: function(){if(getURLParameter(v) == undefined)return '-'; else return getURLParameter(v)}}).appendTo("form")}); 
+    $('<input type="hidden" />').attr({name: 'url', value: document.location.href}).appendTo("form");
+    $('<input type="hidden" />').attr({name: 'title', value: document.title}).appendTo("form");
+
+  $('input[name="phone"]').mask('+7 (999) 999-99-99');
+  $('input[name="phone"]').blur(function() {if($(this).val().length != 18) {$(this).addClass('error-input');}});
+  $('input[name="phone"]').focus(function() {$(this).removeClass('error-input');});
+
+  $('input[name="name"]').blur(function() {if($(this).val().length < 2) {$(this).addClass('error-input');}});
+  $('input[name="name"]').focus(function() {$(this).removeClass('error-input');});
+
+    $('form').submit(function(e){
+        e.preventDefault();
+        $(this).find('input[type="text"]').trigger('blur');
+        if(!$(this).find('input[type="text"]').hasClass('error-input')){
+            var type=$(this).attr('method');
+            var url=$(this).attr('action');
+            var data=$(this).serialize();
+            $.ajax({type: type, url: url, data: data,
+            success : function(){
+                $.arcticmodal('close');$('#okgo').arcticmodal();
+            }
+        }); 
+        }
+    });
 });
 
 $(window).load(function(){
@@ -89,12 +182,33 @@ slider1 = $('.first-slider').bxSlider({pager:false,controls:false, auto:false, s
 
   $('.arr-l-abs').click(function(e){e.preventDefault();slider1.goToPrevSlide();});
   $('.arr-r-abs').click(function(e){e.preventDefault();slider1.goToNextSlide();});
+
+
+slider2 = $('.second-slider').bxSlider({pager:false,controls:false, auto:false, speed: 400,
+    onSlideNext:function($slideElement, oldIndex, newIndex){
+          $('.second-slider-slide').addClass('fadeouted');
+          $('.second-slider-slide').removeClass('active');
+          $('.second-slider-slide[data-sld="'+newIndex+'"]').removeClass('fadeouted');
+          $('.second-slider-slide[data-sld="'+newIndex+'"]').addClass('active');
+      },
+      onSlidePrev:function($slideElement, oldIndex, newIndex){
+          $('.second-slider-slide').addClass('fadeouted');
+          $('.second-slider-slide').removeClass('active');
+          $('.second-slider-slide[data-sld="'+newIndex+'"]').removeClass('fadeouted');
+          $('.second-slider-slide[data-sld="'+newIndex+'"]').addClass('active');
+      },
+      onSliderLoad:function(){
+        $('.second-slider-slide.active.bx-clone').removeClass('active');
+        $('.second-slider-slide').addClass('fadeouted');
+        $('.second-slider-slide.active').removeClass('fadeouted');
+      }});
+    slider2.goToSlide(0);
+
+  $('.arr-r-second').click(function(e){e.preventDefault();slider2.goToPrevSlide();});
+  $('.arr-l-second').click(function(e){e.preventDefault();slider2.goToNextSlide();});
+
+
 });
-
-
-
-
-
 function initfullpage(){
    $('#pages').fullpage({
       scrollBar:true,
@@ -104,22 +218,15 @@ function initfullpage(){
             $(this).find('.animation').addClass('fadeInUp animated');
             $(this).find('.animation2').addClass('fadeInDown animated');
             $(this).find('.animation3').addClass('fadeIn animated');
-            //if ($(this).hasClass('sec4')|| $(this).hasClass('sec6')) {$('.fixed-menu-logo').addClass('blacked')}else{$('.fixed-menu-logo').removeClass('blacked')}
-            //if (!$(this).hasClass('sec1')&&!$('#fp-nav').hasClass('animated')) {$('#fp-nav').addClass('fadeIn animated')}
-            //if(index == 3 || index == 4){$('.stat').not('.stat-abs').addClass('fix-stat');$('.stat-abs').removeClass('stat-show');}else{$('.stat').not('.stat-abs').removeClass('fix-stat')}
-          },
+            },
       onLeave: function(index, nextIndex, direction){
             $('.section:nth-child('+nextIndex+')').find('.animation').addClass('fadeInUp animated');
             $('.section:nth-child('+nextIndex+')').find('.animation2').addClass('fadeInDown animated');
             $('.section:nth-child('+nextIndex+')').find('.animation3').addClass('fadeIn animated');
-            //if (nextIndex == 2 && direction == "up") {$('.stat').not('.stat-abs').removeClass('fix-stat');}
-            //if (nextIndex == 5 && direction == "down") {$('.stat').not('.stat-abs').removeClass('fix-stat');$('.stat-abs').addClass('stat-show');}
-            //if (direction=='down'&&$(this).next().hasClass('sec4')|| direction=='down'&&$(this).next().hasClass('sec6')||direction=='up'&&$(this).prev().hasClass('sec4')|| direction=='up'&&$(this).prev().hasClass('sec6')) {$('.fixed-menu-logo').addClass('blacked')}else{$('.fixed-menu-logo').removeClass('blacked')}
-          },
+            },
       afterRender: function(){
             
           }
     });
    }
-
 });

@@ -4,23 +4,30 @@
     <meta content="text/html; charset=UTF-8" http-equiv=content-type>
     <meta name=viewport content="width=1260">
     <title>Макет!</title>
+    <style>#loader:after,#loader:before{content:"";position:absolute;height:initial;width:initial}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#3498db;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;z-index:1001}#loader:before{top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#e74c3c;-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}#loader:after{top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#f9c922;-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}#loader-wrapper .loader-section{position:fixed;top:0;width:51%;height:100%;background:#222;z-index:1000;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}#loader-wrapper .loader-section.section-left{left:0}#loader-wrapper .loader-section.section-right{right:0}.loaded #loader-wrapper .loader-section.section-left{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader-wrapper .loader-section.section-right{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader{opacity:0;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.loaded #loader-wrapper{visibility:hidden;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:all .3s 1s ease-out;transition:all .3s 1s ease-out}.no-js #loader-wrapper{display:none}.no-js h1{color:#222}#content{margin:0 auto;padding-bottom:50px;width:80%;max-width:978px}</style>
     <link rel=stylesheet type=text/css href="css/libs.min.css">
-    <link rel=stylesheet type=text/css href=css/style.css>
+    <link rel=stylesheet type=text/css href=css/style.min.css>
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="logo"></div>
-            <div class="phone">
-                <a href="tel:88002223344">8 (800) 222 33 44</a>
-                <span><a href="#" id="zz-btn">заказать звонок</a></span>
-            </div>
-            <span class="header-text">Очаг греет</span>
-        </div>
-    </header>
+<div id="loader-wrapper">
+ <div id="loader"></div> 
+ <div class="loader-section section-left"></div>
+ <div class="loader-section section-right"></div> 
+</div>
+<script>if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){document.getElementById("loader-wrapper").style.display="none"}</script>
     <div id="pages">
         <section class="header section">
+            <header>
+                <div class="wrapper">
+                    <div class="logo"></div>
+                    <div class="phone">
+                        <a href="tel:84952417441">8 (495) 241 74 41</a>
+                        <span><a href="#" id="zz-btn">заказать звонок</a></span>
+                    </div>
+                    <span class="header-text">Очаг греет</span>
+                </div>
+            </header>
             <div class="wrapper">
                 <div class="middle-wrap">
                     <div class="slice" id="s1s1">
@@ -130,7 +137,8 @@
                             </div>
                             <div class="kalk-steps" data-step="4">
                                 <p class="s2-form-p">Заполните форму и мы подберем для вас<br>оборудование и оценим работу:</p>
-                                <form action="" method="post">
+                                <form action="ajax/mail.php" method="post">
+                                    <input type="hidden" name="frm" value="Подбор камина">
                                     <input type="text" name="name" placeholder="Введите имя" />
                                     <input type="text" name="phone" placeholder="Ваш телефон" />
                                     <input type="hidden" name="st1">
@@ -269,7 +277,8 @@
                             <p>Получите консультацию
                                 <br> от профессионала
                                 <br> с опытом 12 лет прямо сейчас !</p>
-                            <form action="" method="post">
+                            <form action="ajax/mail.php" method="post">
+                                <input type="hidden" name="frm" value="Получите консультацию">
                                 <input type="text" name="name" placeholder="Введите имя" />
                                 <input type="text" name="phone" placeholder="Ваш телефон" />
                                 <button type="submit">ОТПРАВИТЬ</button>
@@ -449,15 +458,18 @@
                     </div>
                     <div class="slice" id="s10s3">
                         <div class="s10-form">
-                            <div class="full-block">
-                                <p>Нажмите <a href="#">ВЫБРАТЬ ДОКУМЕНТ</a>
-                                    <br> или перетащите его в эту область ваш чертеж</p>
+                            <div class="full-block" id="dropZone">
+                                <span>Нажмите </span><label class="btn-fu" for="file-input">ВЫБРАТЬ ДОКУМЕНТ</label>
+                                <input type="file" name="file-input" id="file-input"><br>
+                                <span>или перетащите его в эту область ваш чертеж</span>
                             </div>
                             <div class="form-block">
                                 <h3>заполните форму и узнайте стоимость работ:</h3>
-                                <form action="" method="post">
+                                <form action="ajax/mail.php" method="post" enctype="multipart/form-data">
+                                    <input type="hidden" name="frm" value="Готовые чертежи">
                                     <input type="text" name="name" placeholder="Введите имя" />
                                     <input type="text" name="phone" placeholder="Ваш телефон" />
+                                    <input type="hidden" name="file" id="filename" value="fileform"/>
                                     <button type="submit">ОТПРАВИТЬ</button>
                                 </form>
                             </div>
@@ -485,13 +497,34 @@
                             <h2 class="animation">отзвывы<br>счастливых<br>заказчиков</h2>
                         </div>
                         <div class="right">
-                            <div class="s12-d-block animation">
-                                <div class="s12-slide"></div>
-                                <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
-                                <img src="./img/letter.jpg" alt="Письмо">
+                            <div class="s12-d-block animation">                            
+                                <div class="second-slider">
+                                    <div class="second-slider-slide active" data-sld="0">
+                                        <div class="s12-slide"></div>
+                                        <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
+                                        <img src="./img/letter.jpg" alt="Письмо">
+                                    </div>
+                                    <div class="second-slider-slide" data-sld="1">
+                                        <div class="s12-slide"></div>
+                                        <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
+                                        <img src="./img/letter.jpg" alt="Письмо">
+                                    </div>
+                                    <div class="second-slider-slide" data-sld="2">
+                                        <div class="s12-slide"></div>
+                                        <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
+                                        <img src="./img/letter.jpg" alt="Письмо">
+                                    </div>
+                                    <div class="second-slider-slide" data-sld="3">
+                                        <div class="s12-slide"></div>
+                                        <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
+                                        <img src="./img/letter.jpg" alt="Письмо">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="arrow-right animation"></div>
-                            <div class="arrow-left animation"></div>
+                            <div class="arrows-second animation">
+                                <div class="arrow-right arr-r-second"></div>
+                                <div class="arrow-left arr-l-second"></div>                             
+                            </div>
                             <div class="s12-line animation"></div>
                         </div>
                     </div>
@@ -499,6 +532,7 @@
             </div>
         </section>
         <section class="sec13 section">
+            <div id="map"></div>
             <!--div class="wrapper">
                 <div class="window">
                     <ul>
@@ -512,7 +546,8 @@
                 </div-->
                 <div class="write">
                     <h2>остались вопросы?<br>пишите</h2>
-                    <form action="" method="post">
+                    <form action="ajax/mail.php" method="post">
+                        <input type="hidden" name="frm" value="Остались вопросы?">
                         <input type="text" name="name" placeholder="Введите имя" />
                         <input type="text" name="phone" placeholder="Ваш телефон" />
                         <textarea name="text" placeholder="Введите ваш вопрос"></textarea>
@@ -532,11 +567,15 @@
     <div id="hidden-box">
         <div class="pop" id="pop-zz">
             <h2>Заказать звонок</h2>
-            <form action="" method="post">
+            <form action="ajax/mail.php" method="post">
+                <input type="hidden" name="frm" value="Заказать звонок">
                 <input type="text" name="name" placeholder="Введите имя" />
                 <input type="text" name="phone" placeholder="Ваш телефон" />
                 <button type="submit">ОТПРАВИТЬ</button>
             </form>        
+        </div>
+        <div class="pop" id="okgo">
+            <h2>Спасибо за заявку!<br>Наш менежер свяжется с Вами<br>в ближайшее время</h2>      
         </div>
     </div>
     <div class="tooltips">
@@ -990,8 +1029,11 @@
         </div>
     </div>
     <!--div id="maket"></div-->
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
+        <script src="js/libs.min.js"></script>
+        <script src="js/main.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/map.js"></script>
+
 </body>
 
 </html>
