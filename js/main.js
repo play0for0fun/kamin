@@ -1,6 +1,6 @@
 $(function(){
 $(document).ready(function(){
-
+$('<link rel=stylesheet type=text/css href="css/libs.min.css"><link rel=stylesheet type=text/css href=css/style.min.css>').appendTo('head');
   setTimeout(function(){
   	if(!$('body').hasClass('loaded')) {
   		$('body').addClass('loaded');
@@ -148,6 +148,7 @@ $(document).ready(function(){
             $.ajax({type: type, url: url, data: data,
             success : function(){
                 $.arcticmodal('close');$('#okgo').arcticmodal();
+                yaCounter36566705.reachGoal('submit');
             }
         }); 
         }
@@ -202,7 +203,7 @@ slider2 = $('.second-slider').bxSlider({pager:false,controls:false, auto:false, 
         $('.second-slider-slide').addClass('fadeouted');
         $('.second-slider-slide.active').removeClass('fadeouted');
       }});
-    slider2.goToSlide(0);
+    //slider2.goToNextSlide();
 
   $('.arr-r-second').click(function(e){e.preventDefault();slider2.goToPrevSlide();});
   $('.arr-l-second').click(function(e){e.preventDefault();slider2.goToNextSlide();});
