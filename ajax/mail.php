@@ -30,7 +30,7 @@ $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "medlkamin@yandex.ru";
+$to = "medlkamin@yandex.ru, ban9z.-.xn----7sbbh2akdncin0b.xn--p1ai@lptracker.ru";
 
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
@@ -57,6 +57,8 @@ $message .= "Тип соответствия ключа(e-точное/p-фра�
 $message .= "Гео-положение отправителя: $location\n\n";
 $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n";
+$message .= "<p>ip: {$_COOKIE["ip"]}</p>";
+
 
 
 if($frm == 'Готовые чертежи'){

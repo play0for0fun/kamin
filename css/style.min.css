@@ -32,7 +32,7 @@ header{position:absolute;color:#fff;left:0;width:100%;top:19.944444444444443%;ma
 .logo{float:left;width:236px;height:68px;margin:0 10px 0;background:url(../img/logo.png) no-repeat center}
 .phone{float:right;margin:17px 10px 0;text-align:right}
 .header-text{display:inline-block;font-family:proxima;font-weight:300;font-size:24px;margin:24px auto 0}
-.phone a{display:block;font-size:30px}
+.phone div{display:block;font-size:30px}
 .phone span{display:block}
 .phone span a{display:inline-block;font-size:19px;color:#c7956f;border-bottom:2px dotted #c7956f;cursor:pointer;-webkit-transition:all .25s;transition:all .25s}
 .phone span a:hover{color:#c7956f;border-bottom:2px dotted transparent}
