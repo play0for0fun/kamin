@@ -13,6 +13,7 @@ $('<link rel=stylesheet type=text/css href="css/libs.min.css"><link rel=styleshe
   		$('body').addClass('loaded')
   	};
     $('<style>section,.section{display:block}.animation,.animation2,.animation3{opacity:1}</style>').appendTo('head');
+  $('body').addClass('loaded');
   }
 
   $('#zz-btn').click(function(e){
@@ -212,9 +213,6 @@ slider2 = $('.second-slider').bxSlider({pager:false,controls:false, auto:false, 
 });
 function initfullpage(){
    $('#pages').fullpage({
-      scrollBar:true,
-      scrollingSpeed: 1000,
-      navigation: true,
       afterLoad: function(anchorLink, index){
             $(this).find('.animation').addClass('fadeInUp animated');
             $(this).find('.animation2').addClass('fadeInDown animated');
