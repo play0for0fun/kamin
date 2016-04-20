@@ -17,9 +17,9 @@ a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,
 #fp-nav.right{left:0;width:40px}
 #fp-nav ul li,.fp-slidesNav ul li{width:20px;height:20px;margin:0}
 #fp-nav ul li a,.fp-slidesNav ul li a{border:none;margin:0}
-#fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span{height:8px;width:8px;margin:-4px 0 0 -4px;background:#fff}
+#fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span{height:8px;width:8px;margin: -2px 0 0 -2px;background:#fff;}
 #fp-nav ul li a:hover span,.fp-slidesNav ul li a span{background:#fff}
-#fp-nav ul li a span,.fp-slidesNav ul li a span{width:8px;height:8px;position:absolute;display:block;margin:-4px 0 0 -4px;background:#b88b67;-webkit-transition:all .25s;transition:all .25s;-webkit-box-shadow:0 0 15px rgba(0,0,0,.5);box-shadow:0 0 15px rgba(0,0,0,.5)}
+#fp-nav ul li a span,.fp-slidesNav ul li a span{width: 12px;height: 12px;position:absolute;display:block;margin:-4px 0 0 -4px;background:#b88b67;-webkit-transition:all .25s;transition:all .25s;-webkit-box-shadow:0 0 15px rgba(0,0,0,.5);box-shadow:0 0 15px rgba(0,0,0,.5);}
 .clear{clear:both}
 .animation,.animation2,.animation3{-webkit-animation-delay:.5s;animation-delay:.5s;opacity:0}
 section{width:100%;min-width:1260px;overflow:hidden;z-index:2;position:relative;background-size:cover!important}
@@ -120,12 +120,12 @@ ul.list .list-li{background: url(../img/check.png) no-repeat left 18px;color:#e7
 .sec6 .full-block p{float:left;padding:42px 15px 21px;line-height:26px;color:#fff;font-size:21px;font-weight:700;text-align:left;text-transform:uppercase;background:url(../img/spot2.png) no-repeat top 84px left 114px;margin-top:0}
 .full-block form{float:left;margin-left:18px;margin-top:53px;font-size:18px;color:#999}
 .error-input{background:#FFBEBE;border:1px solid #D71525}
-form button,form input,form textarea{padding:15px 25px;margin-right:3px;width:175px;height:54px;-webkit-border-radius:5px;border-radius:5px;border:none;color:#000;-webkit-transition:all .25s;transition:all .25s;border:1px solid transparent;outline:0}
+form button,form input,form textarea{padding: 15px 19px;margin-right:3px;width:175px;height:54px;font-size: 16px;-webkit-border-radius:5px;border-radius:5px;border:none;color:#000;-webkit-transition:all .25s;transition:all .25s;border:1px solid transparent;outline:0;}
 ::-webkit-input-placeholder{color:#999}
 ::-moz-placeholder{color:#999}
 :-moz-placeholder{color:#999}
 :-ms-input-placeholder{color:#999}
-form button{color:#fff;background-color:#d71525}
+form button{color:#fff;background-color:#d71525;font-size: 18px;}
 form button:hover{background-color:#b40a18}
 #s7s1{top:-12%;margin-top:126px;z-index:2}
 #s7s2{top:54.4%}

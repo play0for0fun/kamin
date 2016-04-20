@@ -213,6 +213,8 @@ slider2 = $('.second-slider').bxSlider({pager:false,controls:false, auto:false, 
 });
 function initfullpage(){
    $('#pages').fullpage({
+    navigation: true,
+        autoScrolling: false,
       afterLoad: function(anchorLink, index){
             $(this).find('.animation').addClass('fadeInUp animated');
             $(this).find('.animation2').addClass('fadeInDown animated');
