@@ -15,11 +15,32 @@ $('<link rel=stylesheet type=text/css href="css/libs.min.css"><link rel=styleshe
     $('<style>section,.section{display:block}.animation,.animation2,.animation3{opacity:1}</style>').appendTo('head');
   $('body').addClass('loaded');
   }
+$('.site-nav.down').click(function(e) {
+    e.preventDefault();
+    $.fn.fullpage.moveSectionDown();
+  });
+$('.site-nav.up').click(function(e) {
+    e.preventDefault();
+    $.fn.fullpage.moveSectionUp();
+  });
 
   $('#zz-btn').click(function(e){
   	e.preventDefault();
   	$('#pop-zz').arcticmodal();
   });
+
+  //menu
+
+$('.menu-btn').click(function(){
+  $('.menu').toggleClass('active');
+});
+
+$('.menu .menu-a').click(function(e){
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top}, 500);
+  $('.menu').removeClass('active');
+});
+
 
   $('.sec2 .item').click(function(){
     var cur_step = parseInt($(this).parent().parent().data('step'));
@@ -213,12 +234,14 @@ slider2 = $('.second-slider').bxSlider({pager:false,controls:false, auto:false, 
 });
 function initfullpage(){
    $('#pages').fullpage({
-    navigation: true,
         autoScrolling: false,
       afterLoad: function(anchorLink, index){
             $(this).find('.animation').addClass('fadeInUp animated');
             $(this).find('.animation2').addClass('fadeInDown animated');
             $(this).find('.animation3').addClass('fadeIn animated');
+            if(index == 1){$('.site-nav.up').hide();}else{$('.site-nav.up').show();} 
+            if(index == 11){$('.site-nav.down').hide();}else{$('.site-nav.down').show();} 
+           if(index == 1){$('.menu-btn').hide();}else{$('.menu-btn').show();} 
             },
       onLeave: function(index, nextIndex, direction){
             $('.section:nth-child('+nextIndex+')').find('.animation').addClass('fadeInUp animated');

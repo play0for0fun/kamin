@@ -254,3 +254,125 @@ footer .logo{margin-top:-5px;float:right;background:url(../img/logo-foot.png) no
 .pop h2{padding-top:71px;padding-bottom:37px;font-size:29px}
 .pop input{width:100%;text-align:center;margin-bottom:25px}
 .pop button{width:100%;text-align:center;margin-bottom:25px}
+.site-nav .up{}
+.site-nav .down{}
+.site-nav:after{position: absolute;width: 80px;height: 100%;top: 0;z-index: -1;}
+.site-nav{
+    /* position: fixed; */
+    position: fixed;
+    width: 50%;
+    max-width: 140px;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    opacity: 0;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+.site-nav.active{opacity:1!important;}
+.site-nav.up{
+    left: 0;
+    opacity: 0;
+    /* transition: all 0.25s; */
+}
+.site-nav.up:before{
+    background: url(../img/up.png) no-repeat;
+    width: 32px;
+    height: 18px;
+    left: 24px;
+    position: absolute;
+    /* top: 100%; */
+    top: 50%;
+    margin-top: -9px;
+    z-index: 3;
+    /* transition: all 0.25s; */
+}
+.site-nav.down:before{
+    background: url(../img/down.png) no-repeat;
+    width: 32px;
+    height: 18px;
+    right: 24px;
+    position: absolute;
+    /* top: 0%; */
+    z-index: 3;
+    top: 50%;
+    margin-top: -9px;
+    /* transition: all 0.25s; */
+}
+.site-nav:hover{
+    background-position: 24px center;
+    opacity: 1;
+}
+.site-nav:hover:before{
+    top:50%;
+}
+.site-nav.up:after{left: 0;background: rgba(0, 0, 0, 0.15);}
+.site-nav.down{
+    right: 0;
+}
+.site-nav.down.animation{
+    opacity: 0;
+    transition: 0.25s opacity 2s;
+}
+.site-nav.down.animated{
+    opacity: 1;
+}
+.site-nav.down:after{
+    right: 0;
+    background: rgba(0, 0, 0, 0.15);
+}
+.site-nav.down.animation.animated:before{
+	animation: alternate draggable 0.5s infinite cubic-bezier(.7,.01,1,1);
+}
+.site-nav.up{z-index: 20;}
+.site-nav.down{z-index: 20;}
+
+.menu-btn{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 6;
+    background-image: url(../img/menu-btn.png);
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    transition: all 0.25s;
+    margin-left: 10px;
+    background-size: contain;
+    z-index: 31;
+}
+.menu-btn:hover{
+	transform: rotate(-180deg);
+}
+.menu-btn.active{
+    margin-left: 0;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* width: 300px; */
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 5;
+    padding: 40px 0px 40px 10px;
+    transition: all 0.25s;
+    transform: translateX(-100%);
+    z-index: 30;
+}
+.menu.active{
+    transform: translateX(0%);}
+.menu a.menu-a{
+    display: block;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    padding: 5px 10px 5px 5px;
+    transition: all 0.25s;
+    background: transparent;
+}
+.menu a.menu-a:hover{
+    background: rgba(255,255,255,0.1);
+}
+.menu-btn.as-close{background-image: url(../img/close-menu.png);transform: rotate(-360deg);}
+
