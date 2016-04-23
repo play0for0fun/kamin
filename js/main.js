@@ -241,7 +241,6 @@ function initfullpage(){
             $(this).find('.animation3').addClass('fadeIn animated');
             if(index == 1){$('.site-nav.up').hide();}else{$('.site-nav.up').show();} 
             if(index == 11){$('.site-nav.down').hide();}else{$('.site-nav.down').show();} 
-           if(index == 1){$('.menu-btn').hide();}else{$('.menu-btn').show();} 
             },
       onLeave: function(index, nextIndex, direction){
             $('.section:nth-child('+nextIndex+')').find('.animation').addClass('fadeInUp animated');
