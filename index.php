@@ -5,8 +5,14 @@
   <meta name=viewport content="width=1260">
   <title>камин-москва.рф</title>
   <link rel="shortcut icon" href="img/favicon-1.png" type="image/x-icon">
-  <style>#loader:after,#loader:before{content:"";position:absolute;height:initial;width:initial}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#3498db;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;z-index:1001}#loader:before{top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#e74c3c;-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}#loader:after{top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#f9c922;-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}#loader-wrapper .loader-section{position:fixed;top:0;width:51%;height:100%;background:#222;z-index:1000;-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}#loader-wrapper .loader-section.section-left{left:0}#loader-wrapper .loader-section.section-right{right:0}.loaded #loader-wrapper .loader-section.section-left{-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader-wrapper .loader-section.section-right{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);-webkit-transition:all .7s .3s cubic-bezier(.645,.045,.355,1);transition:all .7s .3s cubic-bezier(.645,.045,.355,1)}.loaded #loader{opacity:0;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.loaded #loader-wrapper{visibility:hidden;-webkit-transform:translateY(-100%);-ms-transform:translateY(-100%);transform:translateY(-100%);-webkit-transition:all .3s 1s ease-out;transition:all .3s 1s ease-out}.no-js #loader-wrapper{display:none}.no-js h1{color:#222}#content{margin:0 auto;padding-bottom:50px;width:80%;max-width:978px}</style>
-  <style>#loader,#loader::after,#loader::before{border-radius:50%;border-width:3px;border-style:solid}.no-js #loader-wrapper,[hidden]{display:none}*,.fp-section{box-sizing:border-box}body,h2,h3,h4,h5{text-align:center}.garanty,.header h2,.item-text h4,.sec2 h2,h2{text-transform:uppercase}#loader::after,#loader::before{content:"";position:absolute;height:initial;width:initial}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-color:#3498db transparent transparent;animation:spin 2s linear infinite;z-index:1001}#loader::before{top:5px;left:5px;right:5px;bottom:5px;border-color:#e74c3c transparent transparent;animation:spin 3s linear infinite}#loader::after{top:15px;left:15px;right:15px;bottom:15px;border-color:#f9c922 transparent transparent;animation:spin 1.5s linear infinite}#fp-nav.right,#loader-wrapper .loader-section.section-right{right:0}#loader-wrapper .loader-section{position:fixed;top:0;width:51%;height:100%;z-index:1000;transform:translateX(0);background:#222}#superContainer,.fp-section,.fp-slides,.fp-tableCell,sub,sup{position:relative}#loader-wrapper .loader-section.section-left{left:0}.loaded #loader-wrapper .loader-section.section-left{transform:translateX(-100%);transition:all .7s cubic-bezier(.645,.045,.355,1) .3s}.loaded #loader-wrapper .loader-section.section-right{transform:translateX(100%);transition:all .7s cubic-bezier(.645,.045,.355,1) .3s}.loaded #loader{opacity:0;transition:all .3s ease-out}.loaded #loader-wrapper{visibility:hidden;transform:translateY(-100%);transition:all .3s ease-out 1s}img,legend{border:0}.animated,.animated3{animation-fill-mode:both;z-index:3}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}html{font-family:sans-serif}body,figure{margin:0}a:focus{outline:dotted thin}a:active,a:hover{outline:0}h1{font-size:2em}abbr[title]{border-bottom-width:1px;border-bottom-style:dotted}b,strong{font-weight:700}dfn{font-style:italic}mark{color:#000;background:#ff0}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap;word-wrap:break-word}q{quotes:"“" "”" "‘" "’"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;vertical-align:baseline}sup{top:-.5em;clear:none}sub{bottom:-.25em}svg:not(:root){overflow:hidden}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}.animated{animation-duration:1s;animation-fill-mode:both}.fadeInUp{animation-name:fadeInUp}.bx-wrapper .bx-pager.bx-default-pager a.active,.bx-wrapper .bx-pager.bx-default-pager a:hover{background:#cecece}.bx-wrapper .bx-controls-auto .bx-start.active,.bx-wrapper .bx-controls-auto .bx-start:hover{background-position:-86px 0}.bx-wrapper .bx-controls-auto .bx-stop.active,.bx-wrapper .bx-controls-auto .bx-stop:hover{background-position:-86px -33px}.fp-enabled body,html.fp-enabled{margin:0;padding:0;overflow:hidden;-webkit-tap-highlight-color:transparent}.fp-section.fp-table,.fp-slide.fp-table{display:table;table-layout:fixed;width:100%}.fp-tableCell{display:table-cell;vertical-align:middle;width:100%;height:100%}#fp-nav{position:fixed;z-index:100;top:50%;opacity:1;transform:translate3d(0,0,0)}#fp-nav.left{left:17px}#fp-nav ul,.fp-slidesNav ul{margin:0;padding:0}#fp-nav ul li,.fp-slidesNav ul li{display:block;position:relative}#fp-nav ul li a,.fp-slidesNav ul li a{display:block;position:relative;z-index:1;width:100%;height:100%;cursor:pointer;text-decoration:none;outline:0}#fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span{border-radius:100%;border:none;background-color:#ef472d}#fp-nav ul li a span,.fp-slidesNav ul li a span{border-radius:6px;z-index:1;border:0;left:50%;top:50%}#fp-nav ul li .fp-tooltip{position:absolute;top:-2px;color:#fff;font-size:14px;font-family:arial,helvetica,sans-serif;white-space:nowrap;max-width:220px;overflow:hidden;display:block;opacity:0;width:0}#fp-nav ul li:hover .fp-tooltip,#fp-nav.fp-show-active a.active+.fp-tooltip{transition:opacity .2s ease-in;width:auto;opacity:1}.back,.phone span a,.sec2 .item{transition:all .25s}#fp-nav ul li .fp-tooltip.right{right:20px}#fp-nav ul li .fp-tooltip.left{left:20px}*{margin:0;padding:0}#s2s1,.header h2{padding-top:30px}::after,::before{content:" ";display:block;width:100%;height:0;clear:both}a::after,a::before,br::after,br::before,img::after,img::before,span::after,span::before,table::after,table::before,td::after,td::before,tr::after,tr::before{content:none}.wrapper{width:1200px;margin:0 auto;height:100%;position:relative}.middle-wrap,.slice{width:100%;transform:translateY(-50%);left:0}.middle-wrap{position:absolute;top:50%;height:100%;min-height:600px}.slice{position:absolute}#s1s1{top:33.2778%;margin-top:100.33px}#s1s2{top:41.8889%;margin-top:372.67px}#s2s1{top:50%}#fp-nav.right{left:0;width:40px}#fp-nav ul li,.fp-slidesNav ul li{width:20px;height:20px;margin:0}#fp-nav ul li a,.fp-slidesNav ul li a{border:none;margin:0}#fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span{height:8px;width:8px;margin:-4px 0 0 -4px;background:#fff}#fp-nav ul li a:hover span,.fp-slidesNav ul li a span{background:#fff}#fp-nav ul li a span,.fp-slidesNav ul li a span{width:8px;height:8px;position:absolute;display:block;margin:-4px 0 0 -4px;transition:all .25s;box-shadow:rgba(0,0,0,.498039) 0 0 15px;background:#b88b67}body,section{z-index:2;position:relative}.animation,.animation2,.animation3{animation-delay:.5s;opacity:0}.first-slider-slide.active,.second-slider-slide.active{opacity:1}section{width:100%;min-width:1260px;overflow:hidden;background-size:cover!important}ul{list-style:none}h2,h3,h4,h5{font-size:1em;font-weight:400}a{text-decoration:none;color:inherit;outline:0!important}.header,header{width:100%;color:#fff}body{font-family:proxima,sans-serif}.gar-stamp,header{position:absolute}header{left:0;top:19.9444%;margin-top:-71.67px;transform:translateY(-50%);z-index:5;height:75px!important}.header{height:1032px;background:url(img/s1_bg.jpg) 50% 50% no-repeat}.phone span a,.phone span a:hover{color:#c7956f;border-bottom-width:2px;border-bottom-style:dotted}.logo{float:left;width:236px;height:68px;margin:0 10px;background:url(img/logo.png) 50% 50% no-repeat}.phone{float:right;margin:17px 10px 0;text-align:right}.header-text{display:inline-block;font-family:proxima;font-weight:300;font-size:24px;margin:24px auto 0}.phone div,.phone span{display:block}.phone div{font-size:30px}.item,.nav,.phone span a{display:inline-block}.phone span a{font-size:19px;border-bottom-color:#c7956f;cursor:pointer}.phone span a:hover{border-bottom-color:transparent}h2{font-size:35px;font-weight:700;color:#ebd1bb}.header h2{color:#fff;font-size:52px;line-height:62px;background:url(img/s1_fire.png) 50% 0 no-repeat}.header h2 span{line-height:74px;font-size:37px;font-weight:400}.garanty{color:#c7956f;font-size:24px;font-weight:700;padding-top:107px;height:376px;background:url(img/s1_gar_t.png) 50% 0 no-repeat}.gar-stamp{width:157px;height:157px;right:23px;top:61.0556%;margin-top:71.67px;background:url(img/s1_gar.png) 50% 50% no-repeat}.sec2{color:#ebd1bb;height:966px;min-height:600px;background-color:#483c3c}.sec2 h2{width:869px;margin:-23px auto 67px;z-index:2;background:#483c3c}.sec2 .block-cont{height:539px;border:8px solid #edd5c1;position:relative}.item-text,.kalk-steps{position:absolute;width:100%}.kalk-steps{top:87px;left:0}.sec2 p{margin-bottom:46px;font-size:30px}.s2-form-p{margin-top:77px;margin-bottom:56px!important}.item-text{top:162px}.item,.sec2 .item,.sec2 .item img{position:relative}.item-text h4{font-weight:700;font-size:19px;margin-top:23px}.item-text h3{font-size:23px;font-weight:700}.item-text span{line-height:31px;font-size:18px}.sec2 .items{letter-spacing:14px}.sec2 .item:hover{border:3px solid #ebd1bb}.sec2 .item{letter-spacing:normal;height:241px;border:3px solid transparent;cursor:pointer}.sec2 .item img{margin:-3px;z-index:-2}.back,.nav,.nav .cursor{position:absolute}.back:hover{left:43px}.back{float:left;padding-left:24px;font-size:18px;left:48px;bottom:27px;cursor:pointer;background:url(img/back_arrow.png) 0 50% no-repeat}.nav{width:560px;height:3px;bottom:32px;left:50%;margin-left:-280px;background-color:#9a8371}.block-cont[data-step="2"] .nav .cursor{width:50%}.block-cont[data-step="3"] .nav .cursor{width:75%}.block-cont[data-step="4"] .nav .cursor{width:100%}.nav .cursor{width:25%;height:3px;left:0;transition:.25s;background-color:#e8cdb7}.block-right,.right{float:right}.sec4 .right{float:right;width:64%;padding-left:65px}form button,form input,form textarea{padding:15px 25px;margin-right:3px;width:175px;height:54px;border-radius:5px;color:#000;transition:all .25s;border:1px solid transparent;outline:0}::-webkit-input-placeholder{color:#999}form button{color:#fff;background-color:#d71525}form button:hover{background-color:#b40a18}.sec7 ul li.active{position:relative;border-bottom-width:2px;border-bottom-style:dotted;border-bottom-color:transparent;color:#d4c1b4}.sec7 ul li.active::before{content:"";position:absolute;display:block;width:69px;height:4px;left:150px;top:50%;margin-top:-4px;color:#d4c1b4;border:none;background-color:#d4c1b3}.sec7 .right{margin-right:124px;margin-top:81px;letter-spacing:32px;width:619px;position:relative}.sec7 .right .item{display:inline-block;margin-bottom:29px;letter-spacing:normal}.sec7 .right .item:hover{box-shadow:rgba(43,43,49,.458824) 3px 4px 32px}.sec7 .right span:hover{box-shadow:none}.sec7 .right .item span{display:block;width:127px;color:#d7bca9;font-size:17px;font-style:italic}.sec12 .right img,.sec12 .right p{font-style:italic;color:#c3b7af;font-size:18px;float:left}sup::after,sup::before{content:none}.sec9 .right{position:relative;width:75%;height:600px;margin-top:-18px}.sec9 .right p.ch5{top:587px;right:168px;text-align:left}.sec9 .right p.ch2{top:220px;left:113px;text-align:left}.sec9 .right p.ch3{top:120px;right:83px;line-height:153px;text-align:left}.sec9 .right p.ch4{top:542px;left:113px;text-align:right}.sec12 .right{width:860px;position:relative}.sec12 .right p{margin-top:535px;margin-bottom:185px;padding:0 41px 0 67px;text-align:right}.sec12 .right img{margin-top:240px;text-align:right;margin-left:6px;cursor:pointer;box-shadow:rgba(73,73,75,.941176) -2px 4px 20px 0}footer{color:#717171;font-size:14px;text-align:left;position:absolute;bottom:0;z-index:4;width:100%;background:#0d0e10}footer p{float:left;margin-top:27px}footer span{float:left;font-size:12px;margin-top:10px}footer .logo{margin-top:-5px;float:right;width:178px;height:36px;background:url(img/logo-foot.png) 50% 0 no-repeat}</style>
+  <style><? include('css/head.css'); ?></style>
+  <script>
+  !function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'"></'+t+">"),s.src=i}(document,"script",
+  ["js/libs.min.js",
+  "js/main.js",
+  "https://maps.googleapis.com/maps/api/js?sensor=false",
+  "js/map.js"]);
+  </script>
   <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE4MTMzO2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0cy5qcyIsaW5pdF9sc3RhdHMpfTtsb2Fkc2NyaXB0KCJqcXVlcnktMS4xMC4yLm1pbi5qcyIsanF1ZXJ5X2xzdGF0cyk="></script></noindex>
  </head>
  <body>
@@ -106,14 +112,14 @@
          <p>Выберите материал изготовления топки:</p>
          <div class="items">
           <div class="item" data-inp-name="st1">
-           <img src="./img/sec2_img1.jpg" alt="Сталь">
+           <img class="lazy" src="img/blank.png" data-original="./img/sec2_img1.jpg" alt="Сталь">
            <div class="item-text">
             <h3>СТАЛЬ</h3>
             <span>Дороже. Индивидуальные формы</span>
            </div>
           </div>
           <div class="item" data-inp-name="st1">
-           <img src="./img/sec2_img2.jpg" alt="Чугун">
+           <img class="lazy" src="img/blank.png" data-original="./img/sec2_img2.jpg" alt="Чугун">
            <div class="item-text">
             <h3>ЧУГУН</h3>
             <span>Дешевле. Стандартные формы</span>
@@ -125,37 +131,37 @@
          <p>Выберите форму стекла:</p>
          <div class="items">
           <div class="item" data-inp-name="st2">
-           <img src="img/s2i1.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s2i1.jpg" alt="">
            <div class="item-text">
             <h4>Панарамное</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st2">
-           <img src="img/s2i2.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s2i2.jpg" alt="">
            <div class="item-text">
             <h4>призма</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st2">
-           <img src="img/s2i3.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s2i3.jpg" alt="">
            <div class="item-text">
             <h4>прямое</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st2">
-           <img src="img/s2i4.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s2i4.jpg" alt="">
            <div class="item-text">
             <h4>сквозное</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st2">
-           <img src="img/s2i5.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s2i5.jpg" alt="">
            <div class="item-text">
             <h4>угловое</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st2">
-           <img src="img/s2i6.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s2i6.jpg" alt="">
            <div class="item-text">
             <h4>3 стекла</h4>
            </div>
@@ -166,25 +172,25 @@
          <p>Выберите материал изготовления:</p>
          <div class="items">
           <div class="item" data-inp-name="st3">
-           <img src="img/s3i1.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s3i1.jpg" alt="">
            <div class="item-text">
             <h4>травертин</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st3">
-           <img src="img/s3i2.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s3i2.jpg" alt="">
            <div class="item-text">
             <h4>Гранит</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st3">
-           <img src="img/s3i3.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s3i3.jpg" alt="">
            <div class="item-text">
             <h4>мрамор</h4>
            </div>
           </div>
           <div class="item" data-inp-name="st3">
-           <img src="img/s3i4.jpg" alt="">
+           <img class="lazy" src="img/blank.png" data-original="img/s3i4.jpg" alt="">
            <div class="item-text">
             <h4>оникс</h4>
            </div>
@@ -224,12 +230,12 @@
         <h2>Гарантия качества<br>и сроков работ</h2>
         <p>Мы используем только<br> высококачественные топки и печи:</p>
         <items>
-        <item><img src="./img/part-logo2.png" alt=""></item>
-        <item><img src="./img/part-logo5.png" alt=""></item>
-        <item><img src="./img/part-logo6.png" alt=""></item>
-        <item><img src="./img/part-logo1.png" alt=""></item>
-        <item><img src="./img/part-logo3.png" alt=""></item>
-        <item><img src="./img/part-logo4.png" alt=""></item>
+        <item><img class="lazy" src="img/blank.png" data-original="./img/part-logo2.png" alt=""></item>
+        <item><img class="lazy" src="img/blank.png" data-original="./img/part-logo5.png" alt=""></item>
+        <item><img class="lazy" src="img/blank.png" data-original="./img/part-logo6.png" alt=""></item>
+        <item><img class="lazy" src="img/blank.png" data-original="./img/part-logo1.png" alt=""></item>
+        <item><img class="lazy" src="img/blank.png" data-original="./img/part-logo3.png" alt=""></item>
+        <item><img class="lazy" src="img/blank.png" data-original="./img/part-logo4.png" alt=""></item>
         </items>
        </div>
       </div>
@@ -274,7 +280,7 @@
         <div class="clear"></div>
        </div>
        <div class="full-block">
-        <img src="./img/prorab.png" alt="">
+        <img class="lazy" src="img/blank.png" data-original="./img/prorab.png" alt="">
         <p>Получите консультацию
          <br> от профессионала
         <br> с опытом 12 лет прямо сейчас !</p>
@@ -306,22 +312,22 @@
          </ul>
          <div class="right">
           <div class="stone-wrap" data-page="1">
-           <div class="item stone-item" data-tooltip="#b1i1"><img src="./img/stone/st1_1.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i2"><img src="./img/stone/st1_2.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i3"><img src="./img/stone/st1_3.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i4"><img src="./img/stone/st1_4.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i5"><img src="./img/stone/st1_5.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i6"><img src="./img/stone/st1_6.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i7"><img src="./img/stone/st1_7.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i8"><img src="./img/stone/st1_8.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i9"><img src="./img/stone/st1_9.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i10"><img src="./img/stone/st1_10.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i11"><img src="./img/stone/st1_11.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i12"><img src="./img/stone/st1_12.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i13"><img src="./img/stone/st1_13.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i14"><img src="./img/stone/st1_14.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i15"><img src="./img/stone/st1_15.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b1i16"><img src="./img/stone/st1_16.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i1"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_1.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i2"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_2.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i3"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_3.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i4"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_4.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i5"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_5.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i6"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_6.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i7"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_7.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i8"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_8.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i9"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_9.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i10"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_10.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i11"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_11.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i12"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_12.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i13"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_13.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i14"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_14.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i15"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_15.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b1i16"><img class="lazy" src="img/blank.png" data-original="./img/stone/st1_16.jpg" alt="камень"></div>
            <div class="clear"></div>
            <div class="item"><span>от 50 $ / м<sup>2</sup></span></div>
            <div class="item"><span>от 70 $ / м<sup>2</sup></span></div>
@@ -329,22 +335,22 @@
            <div class="item"><span>от 100 $ / м<sup>2</sup></span></div>
           </div>
           <div class="stone-wrap" data-page="2">
-           <div class="item stone-item" data-tooltip="#b2i1"><img src="./img/stone/st2_1.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i2"><img src="./img/stone/st2_2.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i3"><img src="./img/stone/st2_3.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i4"><img src="./img/stone/st2_4.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i5"><img src="./img/stone/st2_5.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i6"><img src="./img/stone/st2_6.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i7"><img src="./img/stone/st2_7.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i8"><img src="./img/stone/st2_8.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i9"><img src="./img/stone/st2_9.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i10"><img src="./img/stone/st2_10.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i11"><img src="./img/stone/st2_11.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i12"><img src="./img/stone/st2_12.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i13"><img src="./img/stone/st2_13.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i14"><img src="./img/stone/st2_14.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i15"><img src="./img/stone/st2_15.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b2i16"><img src="./img/stone/st2_16.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i1"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_1.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i2"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_2.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i3"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_3.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i4"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_4.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i5"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_5.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i6"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_6.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i7"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_7.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i8"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_8.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i9"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_9.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i10"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_10.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i11"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_11.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i12"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_12.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i13"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_13.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i14"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_14.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i15"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_15.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b2i16"><img class="lazy" src="img/blank.png" data-original="./img/stone/st2_16.jpg" alt="камень"></div>
            <div class="clear"></div>
            <div class="item"><span>от 100 $ / м<sup>2</sup></span></div>
            <div class="item"><span>от 250 $ / м<sup>2</sup></span></div>
@@ -352,22 +358,22 @@
            <div class="item"><span>от 550 $ / м<sup>2</sup></span></div>
           </div>
           <div class="stone-wrap" data-page="3">
-           <div class="item stone-item" data-tooltip="#b3i1"><img src="./img/stone/st3_1.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i2"><img src="./img/stone/st3_2.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i3"><img src="./img/stone/st3_3.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i4"><img src="./img/stone/st3_4.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i5"><img src="./img/stone/st3_5.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i6"><img src="./img/stone/st3_6.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i7"><img src="./img/stone/st3_7.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i8"><img src="./img/stone/st3_8.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i9"><img src="./img/stone/st3_9.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i10"><img src="./img/stone/st3_10.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i11"><img src="./img/stone/st3_11.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i12"><img src="./img/stone/st3_12.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i13"><img src="./img/stone/st3_13.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i14"><img src="./img/stone/st3_14.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i15"><img src="./img/stone/st3_15.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b3i16"><img src="./img/stone/st3_16.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i1"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_1.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i2"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_2.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i3"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_3.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i4"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_4.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i5"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_5.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i6"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_6.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i7"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_7.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i8"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_8.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i9"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_9.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i10"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_10.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i11"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_11.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i12"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_12.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i13"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_13.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i14"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_14.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i15"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_15.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b3i16"><img class="lazy" src="img/blank.png" data-original="./img/stone/st3_16.jpg" alt="камень"></div>
            <div class="clear"></div>
            <div class="item"><span>от 70 $ / м<sup>2</sup></span></div>
            <div class="item"><span>от 100 $ / м<sup>2</sup></span></div>
@@ -375,22 +381,22 @@
            <div class="item"><span>от 500 $ / м<sup>2</sup></span></div>
           </div>
           <div class="stone-wrap" data-page="4">
-           <div class="item stone-item" data-tooltip="#b4i1"><img src="./img/stone/st4_1.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i2"><img src="./img/stone/st4_2.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i3"><img src="./img/stone/st4_3.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i4"><img src="./img/stone/st4_4.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i5"><img src="./img/stone/st4_5.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i6"><img src="./img/stone/st4_6.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i7"><img src="./img/stone/st4_7.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i8"><img src="./img/stone/st4_8.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i9"><img src="./img/stone/st4_9.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i10"><img src="./img/stone/st4_10.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i11"><img src="./img/stone/st4_11.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i12"><img src="./img/stone/st4_12.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i13"><img src="./img/stone/st4_13.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i14"><img src="./img/stone/st4_14.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i15"><img src="./img/stone/st4_15.jpg" alt="камень"></div>
-           <div class="item stone-item" data-tooltip="#b4i16"><img src="./img/stone/st4_16.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i1"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_1.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i2"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_2.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i3"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_3.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i4"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_4.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i5"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_5.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i6"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_6.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i7"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_7.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i8"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_8.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i9"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_9.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i10"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_10.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i11"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_11.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i12"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_12.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i13"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_13.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i14"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_14.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i15"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_15.jpg" alt="камень"></div>
+           <div class="item stone-item" data-tooltip="#b4i16"><img class="lazy" src="img/blank.png" data-original="./img/stone/st4_16.jpg" alt="камень"></div>
            <div class="clear"></div>
            <div class="item"><span>от 150 $ / м<sup>2</sup></span></div>
            <div class="item"><span>от 200 $ / м<sup>2</sup></span></div>
@@ -501,22 +507,22 @@
          <div class="second-slider-slide active" data-sld="0">
           <div class="s12-slide"></div>
           <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
-          <img src="./img/letter.jpg" alt="Письмо">
+          <img class="lazy" src="img/blank.png" data-original="./img/letter.jpg" alt="Письмо">
          </div>
          <div class="second-slider-slide" data-sld="1">
           <div class="s12-slide"></div>
           <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
-          <img src="./img/letter.jpg" alt="Письмо">
+          <img class="lazy" src="img/blank.png" data-original="./img/letter.jpg" alt="Письмо">
          </div>
          <div class="second-slider-slide" data-sld="2">
           <div class="s12-slide"></div>
           <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
-          <img src="./img/letter.jpg" alt="Письмо">
+          <img class="lazy" src="img/blank.png" data-original="./img/letter.jpg" alt="Письмо">
          </div>
          <div class="second-slider-slide" data-sld="3">
           <div class="s12-slide"></div>
           <p>Игорь Владимирович, 24 года.<br> Камин премиум класса</p>
-          <img src="./img/letter.jpg" alt="Письмо">
+          <img class="lazy" src="img/blank.png" data-original="./img/letter.jpg" alt="Письмо">
          </div>
         </div>
        </div>
@@ -1053,11 +1059,6 @@
         <a href="#sec10" class="menu-a">VIP вариант</a>
         <a href="#sec11" class="menu-a">Контакты</a>
     </div>
-     <!--div id="maket"></div-->
-     <script src="js/libs.min.js"></script>
-     <script src="js/main.js"></script>
-     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-     <script src="js/map.js"></script>
      <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter36722730 = new Ya.Metrika({ id:36722730, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/36722730" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
     </body>
    </html>
