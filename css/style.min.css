@@ -142,7 +142,7 @@ form button:hover{background-color:#b40a18}
 .sec7 .right{margin-right:124px;margin-top:81px;letter-spacing:32px;width:619px;position:relative}
 .stone-wrap{position:absolute;top:0;left:0;display:none}
 .stone-wrap[data-page="3"]{display:block}
-.tooltips{overflow-x:hidden;width:100%;position:absolute;top:0;/* height:100%; */}
+.tooltips{/* overflow-x:hidden; */width:100%;position:absolute;top:0;/* height:100%; */}
 .sec7 .right .item{display:inline-block;margin-bottom:29px;letter-spacing:normal}
 .sec7 .right .item:hover{-webkit-box-shadow:3px 4px 32px rgba(43,43,49,.46);box-shadow:3px 4px 32px rgba(43,43,49,.46)}
 .sec7 .right span:hover{-webkit-box-shadow:none;box-shadow:none}
@@ -150,7 +150,7 @@ form button:hover{background-color:#b40a18}
 sup{clear:none}
 sup:after,sup:before{content:none}
 .how{position:absolute;width:275px;height:177px;letter-spacing:normal;background:url(../img/label1.png) no-repeat right top;color:#bca99b}
-.tooltip{position: fixed;z-index:999;display:none;}
+.tooltip{position: absolute;z-index: 1999;display:none;}
 .tooltip:after{width:25px;height:100%;position:absolute;right:100%;top:0;background:url(../img/label1.png) no-repeat left top}
 .how h3{padding:30px 0 12px 45px;text-align:left;color:#e9c9b0;font-size:24px}
 .how .how_p{padding:0 0 9px 74px;text-align:left;font-size:15px;line-height:normal}
