@@ -33,7 +33,7 @@
        <div class="lptracker_phone">+7 (499) 704-45-58</div>
        <span><a href="#" id="zz-btn">заказать звонок</a></span>
       </div>
-      <span class="header-text">Очаг греет</span>
+      <span class="header-text">Проектирование и монтаж каминов</span>
      </div>
     </header>
     <div class="wrapper">
@@ -175,24 +175,28 @@
            <img class="lazy" src="img/blank.png" data-original="img/s3i1.jpg" alt="">
            <div class="item-text">
             <h4>травертин</h4>
-           </div>
-          </div>
-          <div class="item" data-inp-name="st3">
-           <img class="lazy" src="img/blank.png" data-original="img/s3i2.jpg" alt="">
-           <div class="item-text">
-            <h4>Гранит</h4>
+            <p>от 50 $ / м2</p>
            </div>
           </div>
           <div class="item" data-inp-name="st3">
            <img class="lazy" src="img/blank.png" data-original="img/s3i3.jpg" alt="">
            <div class="item-text">
             <h4>мрамор</h4>
+            <p>от 70 $ / м2</p>
+           </div>
+          </div>
+           <div class="item" data-inp-name="st3">
+           <img class="lazy" src="img/blank.png" data-original="img/s3i2.jpg" alt="">
+           <div class="item-text">
+            <h4>Гранит</h4>
+            <p>от 100 $ / м2</p>
            </div>
           </div>
           <div class="item" data-inp-name="st3">
            <img class="lazy" src="img/blank.png" data-original="img/s3i4.jpg" alt="">
            <div class="item-text">
             <h4>оникс</h4>
+            <p>от 150 $ / м2</p>
            </div>
           </div>
          </div>
@@ -1052,10 +1056,10 @@
         <a href="#sec1" class="menu-a">Главная</a>
         <a href="#sec3" class="menu-a">Безопасность</a>
         <a href="#sec2" class="menu-a">Стоимость</a>        
-        <a href="#sec4" class="menu-a">Гарантия</a>
+        <a href="#sec4" class="menu-a">Гарантии</a>
         <a href="#sec5" class="menu-a">Шеф-монтаж</a>
-        <a href="#sec6" class="menu-a">Камни</a>
-        <a href="#sec8" class="menu-a">В цифрах</a>
+        <a href="#sec6" class="menu-a">Облицовка</a>
+        <a href="#sec8" class="menu-a">О компании</a>
         <a href="#sec10" class="menu-a">VIP вариант</a>
         <a href="#sec11" class="menu-a">Контакты</a>
     </div>

@@ -388,3 +388,7 @@ footer .logo{margin-top: 0px;float:right;background: url(../img/logo-foot.png) n
     background: rgba(0, 0, 0, 0.15)!important;
     transition: all 0.25s;
 }
+.item p{
+	font-size: 16px;
+	text-align: center;
+}
