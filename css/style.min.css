@@ -10,8 +10,8 @@
     font-style:normal;
 }*/
 @font-face{font-family:proxima;src:url(../fonts/proxima_nova_bold.eot);src:url(../fonts/proxima_nova_bold.eot?#iefix) format('embedded-opentype'),url(../fonts/proxima_nova_bold.woff2) format('woff2'),url(../fonts/proxima_nova_bold.woff) format('woff'),url(../fonts/proxima_nova_bold.ttf) format('truetype');font-weight:600;font-style:normal}
-@font-face{font-family:proxima;src:url(../fonts/proxima_nova_regular.eot);src:url(../fonts/proxima_nova_regular.eot?#iefix) format('embedded-opentype'),url(../fonts/proxima_nova_regular.woff2) format('woff2'),url(../fonts/proxima_nova_regular.woff) format('woff'),url(../fonts/proxima_nova_regular.ttf) format('truetype');font-style:400}
-@font-face{font-family:proxima;src:url(../fonts/proxima_nova_light.eot);src:url(../fonts/proxima_nova_light.eot?#iefix) format('embedded-opentype'),url(../fonts/proxima_nova_light.woff2) format('woff2'),url(../fonts/proxima_nova_light.woff) format('woff'),url(../fonts/proxima_nova_light.ttf) format('truetype');font-style:300;font-style:normal}
+@font-face{font-family:proxima;src:url(../fonts/proxima_nova_regular.eot);src:url(../fonts/proxima_nova_regular.eot?#iefix) format('embedded-opentype'),url(../fonts/proxima_nova_regular.woff2) format('woff2'),url(../fonts/proxima_nova_regular.woff) format('woff'),url(../fonts/proxima_nova_regular.ttf) format('truetype');font-weight:400;font-style:normal}
+@font-face{font-family:proxima;src:url(../fonts/proxima_nova_light.eot);src:url(../fonts/proxima_nova_light.eot?#iefix) format('embedded-opentype'),url(../fonts/proxima_nova_light.woff2) format('woff2'),url(../fonts/proxima_nova_light.woff) format('woff'),url(../fonts/proxima_nova_light.ttf) format('truetype');font-weight:300;font-style:normal}
 *{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}
 :after,:before{content:" ";display:block;width:100%;height:0;clear:both}
 .clear{clear:both}
@@ -32,7 +32,7 @@ a:after,a:before,br:after,br:before,img:after,img:before,span:after,span:before,
 .animation,.animation2,.animation3{-webkit-animation-delay:.5s;animation-delay:.5s;opacity:0}
 section{width:100%;min-width:1260px;overflow:hidden;z-index:2;position:relative;background-size:cover!important}
 ul{list-style:none}
-h2,h3,h4,h5{font-size:1em;font-weight:400;text-align:center}
+h2,h3,h4,h5{font-size:1em;font-weight:700;text-align:center}
 a{text-decoration:none;color:inherit;outline:0!important}
 body{font-family:proxima;text-align:center;z-index:2;position:relative}
 header{position:absolute;color:#fff;left:0;width:100%;top:19.944444444444443%;margin-top:-71.67px;height:75px!important;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);z-index:5}
