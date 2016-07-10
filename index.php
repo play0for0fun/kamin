@@ -30,7 +30,7 @@
      <div class="wrapper">
       <div class="logo"></div>
       <div class="phone">
-       <div class="lptracker_phone">+7 (499) 704-45-58</div>
+       <div class="lptracker_phone">+7 (985) 227-04-49</div>
        <span><a href="#" id="zz-btn">заказать звонок</a></span>
       </div>
       <span class="header-text">Проектирование и монтаж каминов</span>
