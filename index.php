@@ -30,7 +30,7 @@
      <div class="wrapper">
       <div class="logo"></div>
       <div class="phone">
-       <div class="lptracker_phone">+7 (985) 227-04-49</div>
+       <div>+7 (985) 227-04-49</div>
        <span><a href="#" id="zz-btn">заказать звонок</a></span>
       </div>
       <span class="header-text">Проектирование и монтаж каминов</span>
@@ -45,60 +45,6 @@
        <p class="garanty">100% гарантия безопасной изоляции</p>
       </div>
       <div class="gar-stamp"></div>
-     </div>
-    </div>
-   </section>
-  <section class="sec4 section" id="sec3">
-    <div class="wrapper">
-     <div class="middle-wrap">
-      <div class="sec4-border-wrap">
-       <div class="block-left">
-        <h2>Главное - это<br>безопасность!</h2>
-        <p>Мы находим выход<br>из любой ситуации!</p>
-       </div>
-       <div class="block-right">
-        <div class="first-slider">
-         <div class="first-slider-slide active" data-sld="0">
-          <div class="sld-1-img" id="sld-1-img-1"></div>
-          <div class="right">
-           <h3>Установка камина в<br>деревяном доме</h3>
-           <p class="sec4-text"><i>Поступил звонок клиента: "Что неужели установка камина в деревянном доме - прям так и не возможна?" Если не следить за тем, как горит огонь в камине, то - "Да" и задняя стенка не выдержала бы облицовку из камня, и мы нашли ИДЕАЛЬНОЕ решение, спереди камина расположили негорючее вещество, увеличили толщину жаропрочного силиката кальция для короба, а для задней стенки использовали специальные крепежи, которые предложил наш мастер, в итоге клиент остался очень доволен и порекомендовал нас ее друзьям!</i>
-           </p>
-          </div>
-          <div class="block-left cont">
-           <div class="number">1</div>
-          </div>
-         </div>
-         <div class="first-slider-slide" data-sld="1">
-          <div class="sld-1-img" id="sld-1-img-2"></div>
-          <div class="right">
-           <h3>Установка камина<br>под лестницей!</h3>
-           <p class="sec4-text"><i>Клиент строил себе дом, и дизайнер проекта сильно напортачил тем, что не оставил места для дымохода камина, поэтому он решил сделать камин на улице, наша команда приехала на замер и только 2 часа клиент жаловался на дизайнера, мы его отговорили от ненужной идеи и нашли идеальное решение - установили камин под лестницей, сделав специальное отверстие в стене, сколько было радости у клиента!)</i>
-           </p>
-          </div>
-          <div class="block-left cont">
-           <div class="number">2</div>
-          </div>
-         </div>
-         <div class="first-slider-slide" data-sld="2">
-          <div class="sld-1-img" id="sld-1-img-3"></div>
-          <div class="right">
-           <h3>Проблема<br>поддымления</h3>
-           <p class="sec4-text"><i>Смонтировали камин в доме<br>располооженом на крайнем к лесу<br>участке поселка. Однако камин при<br>открытом стекле топки поддымлял, что<br>недопустимо. Решили увеличитьт высоту<br>дымохода. Это не дало положительных<br>результатов. Поэтому мы внесли<br>изменение в конструктив топки (без<br>нарушения ее целостности). Что привело<br>к решению проблемы поддымления.</i>
-           </p>
-          </div>
-          <div class="block-left cont">
-           <div class="number">3</div>
-          </div>
-         </div>
-        </div>
-        <div class="arrow-left arr-l-abs"></div>
-        <div class="arrow-right arr-r-abs"></div>
-        <p class="prime">Самое важная часть работы
-        <br> скрыта от ваших глаз</p>
-       </div>
-       <div class="s4-line"></div>
-      </div>
      </div>
     </div>
    </section>
@@ -217,6 +163,60 @@
         <span class="back">НАЗАД</span>
         <span class="nav"><span class="cursor"></span></span>
        </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  <section class="sec4 section" id="sec3">
+    <div class="wrapper">
+     <div class="middle-wrap">
+      <div class="sec4-border-wrap">
+       <div class="block-left">
+        <h2>Главное - это<br>безопасность!</h2>
+        <p>Мы находим выход<br>из любой ситуации!</p>
+       </div>
+       <div class="block-right">
+        <div class="first-slider">
+         <div class="first-slider-slide active" data-sld="0">
+          <div class="sld-1-img" id="sld-1-img-1"></div>
+          <div class="right">
+           <h3>Установка камина в<br>деревяном доме</h3>
+           <p class="sec4-text"><i>Поступил звонок клиента: "Что неужели установка камина в деревянном доме - прям так и не возможна?" Если не следить за тем, как горит огонь в камине, то - "Да" и задняя стенка не выдержала бы облицовку из камня, и мы нашли ИДЕАЛЬНОЕ решение, спереди камина расположили негорючее вещество, увеличили толщину жаропрочного силиката кальция для короба, а для задней стенки использовали специальные крепежи, которые предложил наш мастер, в итоге клиент остался очень доволен и порекомендовал нас ее друзьям!</i>
+           </p>
+          </div>
+          <div class="block-left cont">
+           <div class="number">1</div>
+          </div>
+         </div>
+         <div class="first-slider-slide" data-sld="1">
+          <div class="sld-1-img" id="sld-1-img-2"></div>
+          <div class="right">
+           <h3>Установка камина<br>под лестницей!</h3>
+           <p class="sec4-text"><i>Клиент строил себе дом, и дизайнер проекта сильно напортачил тем, что не оставил места для дымохода камина, поэтому он решил сделать камин на улице, наша команда приехала на замер и только 2 часа клиент жаловался на дизайнера, мы его отговорили от ненужной идеи и нашли идеальное решение - установили камин под лестницей, сделав специальное отверстие в стене, сколько было радости у клиента!)</i>
+           </p>
+          </div>
+          <div class="block-left cont">
+           <div class="number">2</div>
+          </div>
+         </div>
+         <div class="first-slider-slide" data-sld="2">
+          <div class="sld-1-img" id="sld-1-img-3"></div>
+          <div class="right">
+           <h3>Проблема<br>поддымления</h3>
+           <p class="sec4-text"><i>Смонтировали камин в доме<br>расположеном на крайнем к лесу<br>участке поселка. Однако камин при<br>открытом стекле топки поддымлял, что<br>недопустимо. Решили увеличить высоту<br>дымохода. Это не дало положительных<br>результатов. Поэтому мы внесли<br>изменение в конструктив топки (без<br>нарушения ее целостности). Что привело<br>к решению проблемы поддымления.</i>
+           </p>
+          </div>
+          <div class="block-left cont">
+           <div class="number">3</div>
+          </div>
+         </div>
+        </div>
+        <div class="arrow-left arr-l-abs"></div>
+        <div class="arrow-right arr-r-abs"></div>
+        <p class="prime">Самое важная часть работы
+        <br> скрыта от ваших глаз</p>
+       </div>
+       <div class="s4-line"></div>
       </div>
      </div>
     </div>
@@ -1053,9 +1053,9 @@
      </div>
     <div class="menu-btn"></div>
     <div class="menu">
-        <a href="#sec1" class="menu-a">Главная</a>
-        <a href="#sec3" class="menu-a">Безопасность</a>
-        <a href="#sec2" class="menu-a">Стоимость</a>        
+        <a href="#sec1" class="menu-a">Главная</a>        
+        <a href="#sec2" class="menu-a">Стоимость</a>
+        <a href="#sec3" class="menu-a">Безопасность</a>        
         <a href="#sec4" class="menu-a">Гарантии</a>
         <a href="#sec5" class="menu-a">Шеф-монтаж</a>
         <a href="#sec6" class="menu-a">Облицовка</a>
